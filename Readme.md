@@ -1,0 +1,2 @@
+
+*Test protected/private code*
