@@ -12,7 +12,7 @@
 trait PrivateAccess {
 
   /**
-   * I call the protected/private method by
+   * Call the protected/private method by
    * $testedObj = new TestedClass();
    * $this->invokeMethod(
    *   $testedObj, 'method_name', [$par1, $par2]
@@ -37,7 +37,7 @@ trait PrivateAccess {
 
 
   /**
-   * I get the protected/private property value by
+   * Get the protected/private property value by
    * $testedObj = new TestedClass();
    * $this->getPrivateProperty(
    *   $testedObj, 'property_name'
